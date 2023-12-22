@@ -1,0 +1,33 @@
+.grid_container {
+  width: fit-content;
+  background-color: antiquewhite;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(121, 63, 63);
+  box-shadow: -2px 10px 10px gray;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-weight: 800;
+  color: darkblue;
+  text-overflow: ellipsis;
+}
+
+.borderNumber {
+  background-color: #ccc;
+}
+
+.empty {
+  border: none;
+  box-shadow: none;
+}
+
+.loser {
+  background-color: red;
+}
